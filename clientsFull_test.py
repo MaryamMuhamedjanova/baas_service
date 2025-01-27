@@ -71,7 +71,7 @@ class TestSuite:
             # Проверка объекта 'data'
             client_data = response_data["data"]
             expected_fields_data = {
-                "pin", "clientCode", "firstName", "isSalaryProject", "surname", "patronymic", "depId", "ordId", 2
+                "pin", "clientCode", "firstName", "isSalaryProject", "surname", "patronymic", "depId", "ordId",
                 "nation", "fullName", "latSurName", "latName", "latFatherName", "residentialAddress", "birthAddress",
                 "placeOfResidenceGrs", "dateOfBirth", "citizenStatus", "citizenship", "typeCode",
                 "bankIdentificationLevel", "bankIdentifier", "isInArchive", "isInBlackList", "isBankClient",
